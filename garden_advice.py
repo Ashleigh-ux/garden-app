@@ -7,7 +7,7 @@ advice = ""
 
 # Determine advice based on the season
 if season == "summer":
-    advice += "Water your plants regularly and provide some shade.\n"
+    advice = "During summer, water your plants more often, especially early in the morning. Adding mulch can also help the soil stay moist."
 elif season == "winter":
     advice += "Protect your plants from frost with covers.\n"
 else:

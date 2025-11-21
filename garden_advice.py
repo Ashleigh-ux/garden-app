@@ -1,3 +1,8 @@
+"""
+This file provides gardening advice based on the season.
+The goal of this update is to improve readability and organisation.
+"""
+
 # Hardcoded values for the season and plant type
 season = "summer"  # TODO: Replace with input() to allow user interaction.
 plant_type = "flower"  # TODO: Replace with input() to allow user interaction.
@@ -15,14 +20,18 @@ else:
 
 # Determine advice based on the plant type
 if plant_type == "flower":
-    advice += "Use fertiliser to encourage blooms."
+    advice += "Use fertiliser to make sure your soil is a happy enviroment"
 elif plant_type == "vegetable":
     advice += "Keep an eye out for pests!"
 else:
     advice += "No advice for this type of plant."
 
+def print_advice(advice):
+    print(advice)
+
+
 # Print the generated advice
-print(advice)
+print_advice(advice)
 
 # TODO: Examples of possible features to add:
 # - Add detailed comments explaining each block of code.
